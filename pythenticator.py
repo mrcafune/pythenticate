@@ -7,7 +7,7 @@ import os
 while 1 == 1:
     os.system('clear')
     print("User Account: Sample@test.com\n")
-    totp = pyotp.TOTP('j7qpjbjqs72zp65lpgcq7')
+    totp = pyotp.TOTP('INSERT KEY HERE')
     print("OTP code is currently:")
     print(totp.now())
     print(" ")
